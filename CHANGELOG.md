@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.0.5 (2025-01-17)</small>
+
+* chore: merge upstream ([7c0a0d3](https://github.com/Bankole2000/logistics-backend/commit/7c0a0d3))
+
 ## <small>0.0.4 (2025-01-17)</small>
 
 * ci(workflows): fix added commit message to release-it ci command ([e73fdff](https://github.com/Bankole2000/logistics-backend/commit/e73fdff))
