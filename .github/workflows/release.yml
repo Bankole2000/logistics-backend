@@ -1,0 +1,34 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main  # Trigger release on push to main (or your default branch)
+      - 'release/*'  # Optionally trigger for release branches
+  pull_request:
+    branches:
+      - main  # Optional: Trigger PRs for releases
+
+jobs:
+  release:
+    name: Release Workflow
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'  # Choose the node version
+
+      - name: Install dependencies
+        run: |
+          npm install
+          
+      - name: Run release-it
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Use GitHub token for release
+        run: |
+          npx release-it --ci  # Trigger release-it in CI mode
