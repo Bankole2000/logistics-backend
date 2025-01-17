@@ -6,8 +6,8 @@ export default {
     tag: true,
     push: true,
     requireUpstream: true,
-    commitMessage: 'chore(release): {{version}}',
-    tagName: 'v{{version}}',
+    commitMessage: 'chore(release): v${version}',
+    tagName: 'v${version}',
   },
   github: {
     release: true,
