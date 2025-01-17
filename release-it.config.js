@@ -5,6 +5,8 @@ module.exports = {
     tag: true,
     push: true,
     requireUpstream: true,
+    commitMessage: 'chore(release): {{version}}',
+    tagName: 'v{{version}}',
   },
   github: {
     release: true, // Enable release creation on GitHub
@@ -12,6 +14,10 @@ module.exports = {
   },
   npm: {
     publish: false, // Prevent publishing to NPM (unless desired)
+  },
+  changelog: {
+    enabled: true,
+    filename: 'CHANGELOG.md',
   },
   plugins: {
     '@semantic-release/changelog': {
