@@ -19,6 +19,9 @@ export default {
   plugins: {
     '@release-it/conventional-changelog': {
       infile: "CHANGELOG.md",
+      "writerOpts": {
+        "groupBy": "type"
+      },
       preset: {
         name: "conventionalcommits",
         types: [
