@@ -36,4 +36,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Use GitHub token for release
         run: |
-          npx release-it --ci  # Trigger release-it in CI mode
+          npx release-it --ci --commit-message "chore(release): {{version}}" # Trigger release-it in CI mode
