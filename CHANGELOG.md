@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.0.7 (2025-01-17)</small>
+
+* chore: merge upstream ([f53ace4](https://github.com/Bankole2000/logistics-backend/commit/f53ace4))
+
 ## <small>0.0.6 (2025-01-17)</small>
 
 * chore: configuring changelog options ([7328183](https://github.com/Bankole2000/logistics-backend/commit/7328183))
