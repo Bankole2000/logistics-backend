@@ -56,7 +56,7 @@
     {
       "type": "ci",
       "hidden": false,
-      "section": "👷‍♂️ Continuous Integration"
+      "section": "♾️ Continuous Integration"
     }
   ],
   "commitUrlFormat": "{{host}}/{{owner}}/{{repository}}/commits/{{hash}}",
