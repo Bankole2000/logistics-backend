@@ -46,8 +46,12 @@ jobs:
         run: |
           git push --follow-tags origin main
 
-      - name: Run release-it
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Use GitHub token for release
-        run: |
-          npx release-it --ci --no-npm
+      # - name: Run release-it
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Use GitHub token for release
+      #   run: |
+      #     npx release-it --ci --no-npm
+
+      - uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
