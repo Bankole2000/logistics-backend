@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.0.23 (2025-01-18)
+
+
+### ♾️ Continuous Integration
+
+* **release:** setup linting and testing tasks ([a4ab007](https://github.com/Bankole2000/logistics-backend/commits/a4ab00787bb69acbc8a8a83d7d6aeb08a6b7ec66))
+
 ### 0.0.22 (2025-01-18)
 
 
