@@ -8,7 +8,7 @@ export default {
     requireUpstream: true,
     commitMessage: 'chore(release): v${version}',
     tagName: 'v${version}',
-    changelog: "npm run release"
+    changelog: "npm run changelog:generate"
   },
   github: {
     release: true,
