@@ -3,11 +3,11 @@ import type { Config } from 'release-it';
 export default {
   git: {
     commit: false,
-    tag: false,
+    tag: true,
     push: false,
     // requireUpstream: true,
     // commitMessage: 'chore(release): v${version}',
-    // tagName: 'v${version}',
+    tagName: 'v${version}',
     // changelog: 'npm run changelog:generate'
   },
   github: {
