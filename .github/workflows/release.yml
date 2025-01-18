@@ -32,6 +32,12 @@ jobs:
         run: |
           npm install
       
+      - name: Run Lint
+        run: npm run lint
+
+      - name: Run Tests
+        run: npm run test
+      
       - name: Set Git config
         run: |
           git config --global user.name "GitHub Actions"
