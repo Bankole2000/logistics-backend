@@ -14,10 +14,12 @@ export default {
     release: true,
     tokenRef: 'GITHUB_TOKEN', 
   },
-  npm: undefined,
-  // npm: {
-  //   publish: false,
-  // },
+  // npm: undefined,
+  npm: {
+    publish: false,
+    ignoreVersion: true,
+    allowSameVersion: true,
+  },
   // hooks: {
   //   'before:version:release': 'echo \'Skipping npm version bump...\''
   // }
