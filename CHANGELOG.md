@@ -1,5 +1,14 @@
 # Changelog
 
+## <small>0.0.7 (2025-01-18)</small>
+
+* wip(workflows): trying out release-it changelog formats ([f155c3f](https://github.com/Bankole2000/logistics-backend/commit/f155c3f))
+* wip(workflows): trying out release-it changelog formats ([7eef099](https://github.com/Bankole2000/logistics-backend/commit/7eef099))
+* chore: configuring changelog options ([7328183](https://github.com/Bankole2000/logistics-backend/commit/7328183))
+* chore: fix release version autogeneration ([c9d5fd3](https://github.com/Bankole2000/logistics-backend/commit/c9d5fd3))
+* chore(release): {{version}} ([4e32e1a](https://github.com/Bankole2000/logistics-backend/commit/4e32e1a))
+* chore(release): v0.0.6 ([af942b1](https://github.com/Bankole2000/logistics-backend/commit/af942b1))
+
 ## <small>0.0.6 (2025-01-17)</small>
 
 * chore: configuring changelog options ([7328183](https://github.com/Bankole2000/logistics-backend/commit/7328183))
