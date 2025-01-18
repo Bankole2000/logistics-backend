@@ -2,7 +2,7 @@
   "name": "logistics",
   "version": "0.0.25",
   "description": "",
-  "author": "",
+  "author": "Bankole Esan <techybanky@gmail.com>",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
@@ -81,5 +81,12 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bankole2000/logistics-backend"
+  },
+  "bugs": {
+    "url": "https://github.com/Bankole2000/logistics-backend/issues"
   }
 }
