@@ -15,11 +15,11 @@ export default {
     tokenRef: 'GITHUB_TOKEN', 
   },
   // npm: undefined,
-  npm: {
-    publish: false,
-    ignoreVersion: true,
-    allowSameVersion: true,
-  },
+  // npm: {
+  //   publish: false,
+  //   ignoreVersion: true,
+  //   allowSameVersion: true,
+  // },
   // hooks: {
   //   'before:version:release': 'echo \'Skipping npm version bump...\''
   // }
