@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.9](https://github.com/Bankole2000/logistics-backend/compare/v0.0.8...v0.0.9) (2025-01-18)
+
+
+### ⚒️ Work In Progress
+
+* **workflows:** replacing conventional-changelog with standard-version ([0268e22](https://github.com/Bankole2000/logistics-backend/commits/0268e2295e23469e2b9e8171a46e7209457dfa94))
+
 ### 0.0.8 (2025-01-18)
 
 
