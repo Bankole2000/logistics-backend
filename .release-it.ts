@@ -17,6 +17,9 @@ export default {
   npm: {
     publish: false,
   },
+  "hooks": {
+    "before:version:release": "echo 'Skipping npm version bump...'"
+  }
   // plugins: {
   //   '@release-it/conventional-changelog': {
   //     infile: "CHANGELOG.md",
