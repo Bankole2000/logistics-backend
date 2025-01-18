@@ -1,15 +1,15 @@
 import type { Config } from 'release-it';
 
 export default {
-  git: {
-    commit: true,
-    tag: true,
-    push: true,
-    requireUpstream: true,
-    commitMessage: 'chore(release): v${version}',
-    tagName: 'v${version}',
-    changelog: 'npm run changelog:generate'
-  },
+  // git: {
+  //   commit: true,
+  //   tag: true,
+  //   push: true,
+  //   requireUpstream: true,
+  //   commitMessage: 'chore(release): v${version}',
+  //   tagName: 'v${version}',
+  //   changelog: 'npm run changelog:generate'
+  // },
   github: {
     release: true,
     tokenRef: 'GITHUB_TOKEN', 
