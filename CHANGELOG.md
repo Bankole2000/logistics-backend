@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.26](https://github.com/Bankole2000/logistics-backend/compare/v0.0.25...v0.0.26) (2025-01-18)
+
+
+### 🚚 Chores
+
+* **release:** 0.0.26 ([087b3d9](https://github.com/Bankole2000/logistics-backend/commits/087b3d9fb674c2c50ce9b9b65236e142eb220239))
+
+
+### ♾️ Continuous Integration
+
+* **workflows:** changes to updates ([5ef9df8](https://github.com/Bankole2000/logistics-backend/commits/5ef9df89f9a0b091b274cee0a81e74658bd60b9f))
+* **workflows:** test release workflow ([d9b81e7](https://github.com/Bankole2000/logistics-backend/commits/d9b81e79753eceb4f81ace288dd69589413d0af8))
+
 ## [0.0.25](https://github.com/Bankole2000/logistics-backend/compare/v0.0.26...v0.0.25) (2025-01-18)
 
 ## [0.0.26](https://github.com/Bankole2000/logistics-backend/compare/v0.0.25...v0.0.26) (2025-01-18)
