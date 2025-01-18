@@ -8,7 +8,7 @@ export default {
     requireUpstream: true,
     commitMessage: 'chore(release): v${version}',
     tagName: 'v${version}',
-    changelog: "npm run changelog:generate"
+    changelog: 'npm run changelog:generate'
   },
   github: {
     release: true,
@@ -17,8 +17,8 @@ export default {
   npm: {
     publish: false,
   },
-  "hooks": {
-    "before:version:release": "echo 'Skipping npm version bump...'"
+  hooks: {
+    'before:version:release': 'echo \'Skipping npm version bump...\''
   }
   // plugins: {
   //   '@release-it/conventional-changelog': {
