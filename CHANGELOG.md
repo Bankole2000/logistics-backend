@@ -1,5 +1,34 @@
 # Changelog
 
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [0.0.11](https://github.com/Bankole2000/logistics-backend/compare/v0.0.10...v0.0.11) (2025-01-18)
+
+
+### ⚒️ Work In Progress
+
+* **workflows:** tweaking release-it config ([9301834](https://github.com/Bankole2000/logistics-backend/commits/9301834e4f3096b761e2c53dd4d62ee4556968a5))
+
+
+### 🚚 Chores
+
+* **release:** v0.0.11 ([815eac3](https://github.com/Bankole2000/logistics-backend/commits/815eac39f08d43daf076f6004e5f58be0ffe3d04))
+* **workflows:** merge upstream changes ([834b802](https://github.com/Bankole2000/logistics-backend/commits/834b802721de87c259df339ed9a27a1f7bf0737c))
+
+
+### 🐛 Bug Fixes
+
+* **workflows:** fixing release workflow ([7d0059b](https://github.com/Bankole2000/logistics-backend/commits/7d0059b1427d4202152c267901dea7d051f5c4f0))
+
+### [0.0.7](https://github.com/Bankole2000/logistics-backend/compare/d2e37370a4f1ecf779c4988a10f170a48d62479a...v0.0.7) (2025-01-17)
+
+
+### 🚚 Chores
+
+* **release:** v0.0.7 ([d2e3737](https://github.com/Bankole2000/logistics-backend/commits/d2e37370a4f1ecf779c4988a10f170a48d62479a))
+
+# Changelog
+
 ## <small>0.0.7 (2025-01-17)</small>
 
 * chore: merge upstream ([f53ace4](https://github.com/Bankole2000/logistics-backend/commit/f53ace4))
